@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Parent",
+        "items": [
+            {
+                "id": 1,
+                "name": "child-parent1",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "child1",
+                        "items": [
+                            {
+                                "id": 1,
+                                "name": "childOfChild1",
+                                "items": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "child2",
+                        "items": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "child3",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "child-parent2",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "child1",
+                        "items": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "child2",
+                        "items": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "child3",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "child-parent3",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "child1",
+                        "items": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "child2",
+                        "items": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "child3",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "child-parent4",
+                "items": [
+                    {
+                        "id": 1,
+                        "name": "child1",
+                        "items": []
+                    },
+                    {
+                        "id": 2,
+                        "name": "child2",
+                        "items": []
+                    },
+                    {
+                        "id": 3,
+                        "name": "child3",
+                        "items": []
+                    }
+                ]
+            }
+        ]
+    }
+]
