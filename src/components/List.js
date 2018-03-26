@@ -12,13 +12,13 @@ background-color: blue;
 
 `
 const Parent = styled.div`
-background-color: limegreen;
+background-color: grey;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-content: center;
 align-items: center;
-
+padding: 5px;
 
 `
 

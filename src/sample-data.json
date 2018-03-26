@@ -14,7 +14,11 @@
                             {
                                 "id": 1,
                                 "name": "childOfChild1",
-                                "items": []
+                                "items": [{
+                                        "id": 1,
+                                        "name": "childOfChildOfChild1",
+                                        "items": []
+                                    }]
                             }
                         ]
                     },
