@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import data from "../sample-data.json";
 import { Items } from "./Items";
-import  styled  from "styled-components";
+import styled from "styled-components";
 
 /*Call the data into a const */
 const sameData = data
@@ -26,7 +26,7 @@ export class List extends Component {
     constructor() {
         super()
     }
-    list(data){
+    list(data) {
         const children = (items) => {
             if (items) {
 
@@ -41,14 +41,14 @@ export class List extends Component {
     }
 
     render() {
-        return(
+        return (
             <Container>
-            <Parent>
-                {this.list(sameData)}
-            </Parent>
+                <Parent>
+                    {this.list(sameData)}
+                </Parent>
 
             </Container>
-            
+
         )
     }
 }

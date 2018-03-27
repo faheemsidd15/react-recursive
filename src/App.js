@@ -19,7 +19,7 @@ const Header = styled.div`
 class App extends Component {
   render() {
     return (
-      <Container >
+      <Container>
       <Header> REACT NESTED JSON</Header>
       <span>*Click to add more data</span>
         <List/>
