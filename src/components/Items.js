@@ -7,8 +7,7 @@ const Item = styled.div`
     background-color: darkseagreen;   
     color: white;
     border-radius: 25px 25px;
-    border-right: 5px solid darkseagreen;
-    border-left: 5px solid darkseagreen;
+   
     margin: 0.5vw;
 
 `
@@ -34,16 +33,18 @@ export class Items extends Component {
 
     render() {
         return <Item>
+            <div>
             <span>|</span><br/>
-            <button onClick={this.togglePopup.bind(this)}s>{this.props.name}</button>
+            <button onClick={this.togglePopup.bind(this)}>{this.props.name}</button>
             {this.props.children}
             {this.state.showPopup ?
                 <Popup
-                    text='Close Me'
-                    closePopup={this.togglePopup.bind(this)}
+                text={this.props.id}
+                closePopup={this.togglePopup.bind(this)}
                 />
                 : null
             }
+            </div>
         </Item>
 
 

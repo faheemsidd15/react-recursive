@@ -16,12 +16,11 @@ background-color: grey;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-align-content: center;
-align-items: center;
 padding: 5px;
 
-`
 
+`
+console.log(sameData);
 export class List extends Component {
     constructor() {
         super()
@@ -34,7 +33,7 @@ export class List extends Component {
             }
         }
         return data.map((node, index) => {
-            return <Items key={node.id} name={node.name}>
+            return <Items key={node.id} name={node.name} id={node.id}>
                 <div>{children(node.items)}</div>
             </Items>
         })

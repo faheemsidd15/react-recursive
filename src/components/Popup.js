@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-
+import { Items } from "./Items";
 export class Popup extends Component {
     render() {
         return (
             <div className='popup'>
-                <div className='popup_inner'>
+                <div>
                     <h1>{this.props.text}</h1>
-                    <button onClick={this.props.closePopup}>close me</button>
+                    <button onClick={this.props.closePopup}>X</button>
                 </div>
             </div>
         );
